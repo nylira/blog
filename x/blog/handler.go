@@ -25,7 +25,7 @@ func NewHandler(k Keeper) sdk.Handler {
 func handleMsgCreatePost(ctx sdk.Context, k Keeper, msg MsgCreatePost) (*sdk.Result, error) {
 	var post = types.Post{
 		Creator: msg.Creator,
-		ID:      Msg.ID,
+		ID:      msg.ID,
 		Title:   msg.Title,
 	}
 	k.CreatePost(ctx, post)

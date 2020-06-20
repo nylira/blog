@@ -11,11 +11,11 @@ import (
 	"github.com/nylira/blog/x/blog/types"
 
 	"bufio"
+
 	"github.com/cosmos/cosmos-sdk/client/context"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/x/auth"
 	"github.com/cosmos/cosmos-sdk/x/auth/client/utils"
-	"github.com/nylira/blog/x/blog/types"
 )
 
 // GetTxCmd returns the transaction commands for this module
